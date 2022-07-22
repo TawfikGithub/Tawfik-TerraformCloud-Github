@@ -29,7 +29,7 @@ resource "aws_s3_bucket" "test-bucket" {
 
     tags = {
       "BucketOwner" = "Tawfik"
-      "Env" = "Dev"
+      "Env" = "Dev1"
     }
   
 }
